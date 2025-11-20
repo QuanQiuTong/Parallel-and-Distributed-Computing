@@ -1,0 +1,69 @@
+线程 8， 最大深度 4
+
+N=1000 sorted in 3 ms
+N=1000 serially sorted in 0 ms
+Speedup: 0x
+N=5000 sorted in 3 ms
+N=5000 serially sorted in 3 ms
+Speedup: 1x
+N=10000 sorted in 11 ms
+N=10000 serially sorted in 7 ms
+Speedup: 0.636364x
+N=100000 sorted in 84 ms
+N=100000 serially sorted in 101 ms
+Speedup: 1.20238x
+N=1000000 sorted in 1306 ms
+N=1000000 serially sorted in 1130 ms
+Speedup: 0.865237x
+N=10000000 sorted in 8687 ms
+N=10000000 serially sorted in 7330 ms
+Speedup: 0.84379x
+
+Process exited with code: 0.
+
+
+线程 8， 最大深度 4， 独立的串行排序函数
+
+N=1000 sorted in 2 ms
+N=1000 serially sorted in 0 ms
+Speedup: 0x
+N=5000 sorted in 3 ms
+N=5000 serially sorted in 3 ms
+Speedup: 1x
+N=10000 sorted in 6 ms
+N=10000 serially sorted in 6 ms
+Speedup: 1x
+N=100000 sorted in 114 ms
+N=100000 serially sorted in 84 ms
+Speedup: 0.736842x
+N=1000000 sorted in 934 ms
+N=1000000 serially sorted in 875 ms
+Speedup: 0.936831x
+N=10000000 sorted in 8062 ms
+N=10000000 serially sorted in 7208 ms
+Speedup: 0.894071x
+
+Process exited with code: 0.
+
+线程 8， 最大深度 3
+
+N=1000 sorted in 3 ms
+N=1000 serially sorted in 0 ms 
+Speedup: 0x
+N=5000 sorted in 2 ms
+N=5000 serially sorted in 2 ms 
+Speedup: 1x
+N=10000 sorted in 3 ms
+N=10000 serially sorted in 4 ms
+Speedup: 1.33333x
+N=100000 sorted in 76 ms
+N=100000 serially sorted in 65 ms
+Speedup: 0.855263x
+N=1000000 sorted in 441 ms
+N=1000000 serially sorted in 612 ms
+Speedup: 1.38776x
+N=10000000 sorted in 5742 ms
+N=10000000 serially sorted in 6852 ms
+Speedup: 1.19331x
+
+Process exited with code: 0.
