@@ -1,0 +1,9 @@
+(base) PS C:\Users\Fu_Quantong\Project7\WordCount\test_data> java SingleThreadWordCount .\wordcount_1k.txt .log           
+Single Thread Time Usage: 38 ms
+(base) PS C:\Users\Fu_Quantong\Project7\WordCount\test_data> java SingleThreadWordCount .\wordcount_1m.txt .log  
+Single Thread Time Usage: 442 ms
+(base) PS C:\Users\Fu_Quantong\Project7\WordCount\test_data> java SingleThreadWordCount .\wordcount_10m.txt .log 
+Single Thread Time Usage: 932 ms
+(base) PS C:\Users\Fu_Quantong\Project7\WordCount\test_data> java SingleThreadWordCount .\wordcount_100m.txt .log
+Single Thread Time Usage: 4099 ms
+(base) PS C:\Users\Fu_Quantong\Project7\WordCount\test_data> 
