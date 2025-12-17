@@ -43,6 +43,8 @@ public class WordCount {
 
     private static Job getJob(Path inputPath, Path outputPath, int numReducers) throws Exception {
         Configuration conf = new Configuration();
+        conf.setLong("mapreduce.input.fileinputformat.split.maxsize", 16 * 1024 * 1024); // 16MB
+        conf.setLong("mapreduce.input.fileinputformat.split.minsize", 16 * 1024 * 1024);
 
         Job job = Job.getInstance(conf, "word count with " + numReducers + " reducers");
         job.setJarByClass(WordCount.class);
