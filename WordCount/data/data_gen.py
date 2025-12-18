@@ -46,7 +46,8 @@ def main():
         ("wordcount_1k.txt", 1024),           # 1KB
         ("wordcount_1m.txt", 1024*1024),      # 1MB
         ("wordcount_10m.txt", 10*1024*1024),  # 10MB
-        ("wordcount_100m.txt", 100*1024*1024) # 100MB
+        ("wordcount_100m.txt", 100*1024*1024), # 100MB
+        ("wordcount_1000m.txt", 1000*1024*1024) # 1000MB
     ]
     
     for filename, size in file_sizes:
